@@ -11,63 +11,12 @@ import AudioToolbox
 import AVFoundation
 
 class NotePlayer {
-//    let engine = AVAudioEngine()
-//    let sampler = AVAudioUnitSampler()
-//    let componentDescription = AudioComponentDescription(componentType: OSType(kAudioUnitType_MusicDevice), componentSubType: OSType(kAudioUnitType_MusicDevice), componentManufacturer: kAudioUnitManufacturer_Apple, componentFlags: 0, componentFlagsMask: 0)
-//    var instrument: AVAudioUnitMIDIInstrument
-//    
-//    init() {
-//        engine.prepare()
-//        engine.attach(sampler)
-//        engine.connect(sampler, to: engine.outputNode, format: nil)
-//        instrument = AVAudioUnitMIDIInstrument(audioComponentDescription: componentDescription)
-//        do {
-//            try sampler.loadInstrument(at: )
-//        }
-//        catch {
-//            print("couldn't add the instrument")
-//        }
-//    }
-//    
-//    func playNote() {
-//        do {
-//            try engine.start()
-//        }
-//        catch {
-//            print("couldn't start")
-//        }
-//        
-//        sampler.startNote(UInt8(60), withVelocity: 127, onChannel: 1)
-////        sleep(5)
-////        sampler.stopNote(UInt8(60), onChannel: 1)
-//    }
-    
-    
-    // Creating a track
-    
-//    let musicSequence = NewMusicSequence(nil)
-//    let musicTrack = MusicSequenceNewTrack(nil, nil)
-//    
-//    var time = MusicTimeStamp(1.0)
-//    var note = MIDINoteMessage(
-//        channel: 0,
-//        note: 60,
-//        velocity: 64,
-//        releaseVelocity: 0,
-//        duration: 1.0 )
-//    
-//    func playNote() {
-//        musicTrack = MusicTrackNewMIDINoteEvent(nil, time, note)
-//        var musicPlayer = NewMusicPlayer(nil)
-//        musicPlayer = MusicPlayerSetSequence(musicPlayer!, sequence)
-//        musicPlayer = MusicPlayerStart(musicPlayer!)
-//    }
-
 }
 
 class Sampler: NSObject {
     var engine: AVAudioEngine!
     var sampler: AVAudioUnitSampler!
+    var sequencer: AVAudioSequencer!
     
     override init() {
         super.init()
@@ -84,6 +33,8 @@ class Sampler: NSObject {
         startEngine()
         
         setSessionPlayback()
+        
+        setupSequencer()
         
     }
     
@@ -126,6 +77,23 @@ class Sampler: NSObject {
         }
     }
     
+    func setupSequencer() {
+        self.sequencer = AVAudioSequencer(audioEngine: self.engine)
+        
+        let options = AVMusicSequenceLoadOptions.smfChannelsToTracks
+        
+        if let fileURL = Bundle.main.url(forResource: "InCTest", withExtension: ".mid") {
+            do {
+                try sequencer.load(from: fileURL, options: options)
+                print("laoded file")
+            } catch {
+                print("couldn't setup sequencer \(error)")
+                return
+            }
+        }
+        
+    }
+    
     func setSessionPlayback() {
         let audioSession = AVAudioSession.sharedInstance()
         do {
@@ -136,11 +104,23 @@ class Sampler: NSObject {
     }
     
     func play() {
-        sampler.startNote(60, withVelocity: 64, onChannel: 0)
+        if sequencer.isPlaying {
+            stop()
+        }
+        
+        sequencer.currentPositionInBeats = TimeInterval(0)
+        
+        do {
+            try sequencer.start()
+        } catch {
+            print("cannot start \(error)")
+        }
+        //sampler.startNote(60, withVelocity: 64, onChannel: 0)
     }
     
     func stop() {
-        sampler.stopNote(60, onChannel: 0)
+        sequencer.stop()
+//        sampler.stopNote(60, onChannel: 0)
     }
 }
 
