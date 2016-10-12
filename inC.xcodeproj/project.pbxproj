@@ -7,6 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D03F59C1DADEB6D00FA3331 /* GeneralUser GS MuseScore v1.442.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F59B1DADEB6D00FA3331 /* GeneralUser GS MuseScore v1.442.sf2 */; };
+		1D03F5D61DADF05100FA3331 /* Pulse.midi in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5A01DADF05100FA3331 /* Pulse.midi */; };
+		1D03F5D71DADF05100FA3331 /* Sample1.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5A11DADF05100FA3331 /* Sample1.mid */; };
+		1D03F5D81DADF05100FA3331 /* Sample10.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5A21DADF05100FA3331 /* Sample10.mid */; };
+		1D03F5D91DADF05100FA3331 /* Sample11.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5A31DADF05100FA3331 /* Sample11.mid */; };
+		1D03F5DA1DADF05100FA3331 /* Sample12.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5A41DADF05100FA3331 /* Sample12.mid */; };
+		1D03F5DB1DADF05100FA3331 /* Sample13.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5A51DADF05100FA3331 /* Sample13.mid */; };
+		1D03F5DC1DADF05100FA3331 /* Sample14.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5A61DADF05100FA3331 /* Sample14.mid */; };
+		1D03F5DD1DADF05100FA3331 /* Sample15.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5A71DADF05100FA3331 /* Sample15.mid */; };
+		1D03F5DE1DADF05100FA3331 /* Sample16.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5A81DADF05100FA3331 /* Sample16.mid */; };
+		1D03F5DF1DADF05100FA3331 /* Sample17.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5A91DADF05100FA3331 /* Sample17.mid */; };
+		1D03F5E01DADF05100FA3331 /* Sample18.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5AA1DADF05100FA3331 /* Sample18.mid */; };
+		1D03F5E11DADF05100FA3331 /* Sample19.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5AB1DADF05100FA3331 /* Sample19.mid */; };
+		1D03F5E21DADF05100FA3331 /* Sample2.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5AC1DADF05100FA3331 /* Sample2.mid */; };
+		1D03F5E31DADF05100FA3331 /* Sample20.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5AD1DADF05100FA3331 /* Sample20.mid */; };
+		1D03F5E41DADF05100FA3331 /* Sample21.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5AE1DADF05100FA3331 /* Sample21.mid */; };
+		1D03F5E51DADF05100FA3331 /* Sample22.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5AF1DADF05100FA3331 /* Sample22.mid */; };
+		1D03F5E61DADF05100FA3331 /* Sample23.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5B01DADF05100FA3331 /* Sample23.mid */; };
+		1D03F5E71DADF05100FA3331 /* Sample24.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5B11DADF05100FA3331 /* Sample24.mid */; };
+		1D03F5E81DADF05100FA3331 /* Sample25.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5B21DADF05100FA3331 /* Sample25.mid */; };
+		1D03F5E91DADF05100FA3331 /* Sample26.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5B31DADF05100FA3331 /* Sample26.mid */; };
+		1D03F5EA1DADF05100FA3331 /* Sample27.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5B41DADF05100FA3331 /* Sample27.mid */; };
+		1D03F5EB1DADF05100FA3331 /* Sample28.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5B51DADF05100FA3331 /* Sample28.mid */; };
+		1D03F5EC1DADF05100FA3331 /* Sample29.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5B61DADF05100FA3331 /* Sample29.mid */; };
+		1D03F5ED1DADF05100FA3331 /* Sample3.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5B71DADF05100FA3331 /* Sample3.mid */; };
+		1D03F5EE1DADF05100FA3331 /* Sample30.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5B81DADF05100FA3331 /* Sample30.mid */; };
+		1D03F5EF1DADF05100FA3331 /* Sample31.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5B91DADF05100FA3331 /* Sample31.mid */; };
+		1D03F5F01DADF05100FA3331 /* Sample32.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5BA1DADF05100FA3331 /* Sample32.mid */; };
+		1D03F5F11DADF05100FA3331 /* Sample33.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5BB1DADF05100FA3331 /* Sample33.mid */; };
+		1D03F5F21DADF05100FA3331 /* Sample34.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5BC1DADF05100FA3331 /* Sample34.mid */; };
+		1D03F5F31DADF05100FA3331 /* Sample35.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5BD1DADF05100FA3331 /* Sample35.mid */; };
+		1D03F5F41DADF05100FA3331 /* Sample36.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5BE1DADF05100FA3331 /* Sample36.mid */; };
+		1D03F5F51DADF05100FA3331 /* Sample37.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5BF1DADF05100FA3331 /* Sample37.mid */; };
+		1D03F5F61DADF05100FA3331 /* Sample38.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5C01DADF05100FA3331 /* Sample38.mid */; };
+		1D03F5F71DADF05100FA3331 /* Sample39.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5C11DADF05100FA3331 /* Sample39.mid */; };
+		1D03F5F81DADF05100FA3331 /* Sample4.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5C21DADF05100FA3331 /* Sample4.mid */; };
+		1D03F5F91DADF05100FA3331 /* Sample40.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5C31DADF05100FA3331 /* Sample40.mid */; };
+		1D03F5FA1DADF05100FA3331 /* Sample41.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5C41DADF05100FA3331 /* Sample41.mid */; };
+		1D03F5FB1DADF05100FA3331 /* Sample42.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5C51DADF05100FA3331 /* Sample42.mid */; };
+		1D03F5FC1DADF05100FA3331 /* Sample43.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5C61DADF05100FA3331 /* Sample43.mid */; };
+		1D03F5FD1DADF05100FA3331 /* Sample44.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5C71DADF05100FA3331 /* Sample44.mid */; };
+		1D03F5FE1DADF05100FA3331 /* Sample45.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5C81DADF05100FA3331 /* Sample45.mid */; };
+		1D03F5FF1DADF05100FA3331 /* Sample46.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5C91DADF05100FA3331 /* Sample46.mid */; };
+		1D03F6001DADF05100FA3331 /* Sample47.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5CA1DADF05100FA3331 /* Sample47.mid */; };
+		1D03F6011DADF05100FA3331 /* Sample48.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5CB1DADF05100FA3331 /* Sample48.mid */; };
+		1D03F6021DADF05100FA3331 /* Sample49.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5CC1DADF05100FA3331 /* Sample49.mid */; };
+		1D03F6031DADF05100FA3331 /* Sample5.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5CD1DADF05100FA3331 /* Sample5.mid */; };
+		1D03F6041DADF05100FA3331 /* Sample50.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5CE1DADF05100FA3331 /* Sample50.mid */; };
+		1D03F6051DADF05100FA3331 /* Sample51.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5CF1DADF05100FA3331 /* Sample51.mid */; };
+		1D03F6061DADF05100FA3331 /* Sample52.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5D01DADF05100FA3331 /* Sample52.mid */; };
+		1D03F6071DADF05100FA3331 /* Sample53.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5D11DADF05100FA3331 /* Sample53.mid */; };
+		1D03F6081DADF05100FA3331 /* Sample6.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5D21DADF05100FA3331 /* Sample6.mid */; };
+		1D03F6091DADF05100FA3331 /* Sample7.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5D31DADF05100FA3331 /* Sample7.mid */; };
+		1D03F60A1DADF05100FA3331 /* Sample8.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5D41DADF05100FA3331 /* Sample8.mid */; };
+		1D03F60B1DADF05100FA3331 /* Sample9.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1D03F5D51DADF05100FA3331 /* Sample9.mid */; };
 		1D1175AA1DA1D10600AFE136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1175A91DA1D10600AFE136 /* AppDelegate.swift */; };
 		1D1175AC1DA1D10600AFE136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1175AB1DA1D10600AFE136 /* ViewController.swift */; };
 		1D1175AF1DA1D10600AFE136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1175AD1DA1D10600AFE136 /* Main.storyboard */; };
@@ -35,6 +90,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D03F59B1DADEB6D00FA3331 /* GeneralUser GS MuseScore v1.442.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralUser GS MuseScore v1.442.sf2"; sourceTree = "<group>"; };
+		1D03F5A01DADF05100FA3331 /* Pulse.midi */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Pulse.midi; sourceTree = "<group>"; };
+		1D03F5A11DADF05100FA3331 /* Sample1.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample1.mid; sourceTree = "<group>"; };
+		1D03F5A21DADF05100FA3331 /* Sample10.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample10.mid; sourceTree = "<group>"; };
+		1D03F5A31DADF05100FA3331 /* Sample11.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample11.mid; sourceTree = "<group>"; };
+		1D03F5A41DADF05100FA3331 /* Sample12.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample12.mid; sourceTree = "<group>"; };
+		1D03F5A51DADF05100FA3331 /* Sample13.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample13.mid; sourceTree = "<group>"; };
+		1D03F5A61DADF05100FA3331 /* Sample14.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample14.mid; sourceTree = "<group>"; };
+		1D03F5A71DADF05100FA3331 /* Sample15.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample15.mid; sourceTree = "<group>"; };
+		1D03F5A81DADF05100FA3331 /* Sample16.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample16.mid; sourceTree = "<group>"; };
+		1D03F5A91DADF05100FA3331 /* Sample17.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample17.mid; sourceTree = "<group>"; };
+		1D03F5AA1DADF05100FA3331 /* Sample18.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample18.mid; sourceTree = "<group>"; };
+		1D03F5AB1DADF05100FA3331 /* Sample19.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample19.mid; sourceTree = "<group>"; };
+		1D03F5AC1DADF05100FA3331 /* Sample2.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample2.mid; sourceTree = "<group>"; };
+		1D03F5AD1DADF05100FA3331 /* Sample20.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample20.mid; sourceTree = "<group>"; };
+		1D03F5AE1DADF05100FA3331 /* Sample21.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample21.mid; sourceTree = "<group>"; };
+		1D03F5AF1DADF05100FA3331 /* Sample22.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample22.mid; sourceTree = "<group>"; };
+		1D03F5B01DADF05100FA3331 /* Sample23.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample23.mid; sourceTree = "<group>"; };
+		1D03F5B11DADF05100FA3331 /* Sample24.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample24.mid; sourceTree = "<group>"; };
+		1D03F5B21DADF05100FA3331 /* Sample25.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample25.mid; sourceTree = "<group>"; };
+		1D03F5B31DADF05100FA3331 /* Sample26.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample26.mid; sourceTree = "<group>"; };
+		1D03F5B41DADF05100FA3331 /* Sample27.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample27.mid; sourceTree = "<group>"; };
+		1D03F5B51DADF05100FA3331 /* Sample28.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample28.mid; sourceTree = "<group>"; };
+		1D03F5B61DADF05100FA3331 /* Sample29.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample29.mid; sourceTree = "<group>"; };
+		1D03F5B71DADF05100FA3331 /* Sample3.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample3.mid; sourceTree = "<group>"; };
+		1D03F5B81DADF05100FA3331 /* Sample30.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample30.mid; sourceTree = "<group>"; };
+		1D03F5B91DADF05100FA3331 /* Sample31.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample31.mid; sourceTree = "<group>"; };
+		1D03F5BA1DADF05100FA3331 /* Sample32.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample32.mid; sourceTree = "<group>"; };
+		1D03F5BB1DADF05100FA3331 /* Sample33.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample33.mid; sourceTree = "<group>"; };
+		1D03F5BC1DADF05100FA3331 /* Sample34.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample34.mid; sourceTree = "<group>"; };
+		1D03F5BD1DADF05100FA3331 /* Sample35.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample35.mid; sourceTree = "<group>"; };
+		1D03F5BE1DADF05100FA3331 /* Sample36.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample36.mid; sourceTree = "<group>"; };
+		1D03F5BF1DADF05100FA3331 /* Sample37.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample37.mid; sourceTree = "<group>"; };
+		1D03F5C01DADF05100FA3331 /* Sample38.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample38.mid; sourceTree = "<group>"; };
+		1D03F5C11DADF05100FA3331 /* Sample39.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample39.mid; sourceTree = "<group>"; };
+		1D03F5C21DADF05100FA3331 /* Sample4.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample4.mid; sourceTree = "<group>"; };
+		1D03F5C31DADF05100FA3331 /* Sample40.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample40.mid; sourceTree = "<group>"; };
+		1D03F5C41DADF05100FA3331 /* Sample41.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample41.mid; sourceTree = "<group>"; };
+		1D03F5C51DADF05100FA3331 /* Sample42.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample42.mid; sourceTree = "<group>"; };
+		1D03F5C61DADF05100FA3331 /* Sample43.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample43.mid; sourceTree = "<group>"; };
+		1D03F5C71DADF05100FA3331 /* Sample44.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample44.mid; sourceTree = "<group>"; };
+		1D03F5C81DADF05100FA3331 /* Sample45.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample45.mid; sourceTree = "<group>"; };
+		1D03F5C91DADF05100FA3331 /* Sample46.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample46.mid; sourceTree = "<group>"; };
+		1D03F5CA1DADF05100FA3331 /* Sample47.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample47.mid; sourceTree = "<group>"; };
+		1D03F5CB1DADF05100FA3331 /* Sample48.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample48.mid; sourceTree = "<group>"; };
+		1D03F5CC1DADF05100FA3331 /* Sample49.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample49.mid; sourceTree = "<group>"; };
+		1D03F5CD1DADF05100FA3331 /* Sample5.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample5.mid; sourceTree = "<group>"; };
+		1D03F5CE1DADF05100FA3331 /* Sample50.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample50.mid; sourceTree = "<group>"; };
+		1D03F5CF1DADF05100FA3331 /* Sample51.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample51.mid; sourceTree = "<group>"; };
+		1D03F5D01DADF05100FA3331 /* Sample52.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample52.mid; sourceTree = "<group>"; };
+		1D03F5D11DADF05100FA3331 /* Sample53.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample53.mid; sourceTree = "<group>"; };
+		1D03F5D21DADF05100FA3331 /* Sample6.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample6.mid; sourceTree = "<group>"; };
+		1D03F5D31DADF05100FA3331 /* Sample7.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample7.mid; sourceTree = "<group>"; };
+		1D03F5D41DADF05100FA3331 /* Sample8.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample8.mid; sourceTree = "<group>"; };
+		1D03F5D51DADF05100FA3331 /* Sample9.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sample9.mid; sourceTree = "<group>"; };
 		1D1175A61DA1D10600AFE136 /* inC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D1175A91DA1D10600AFE136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D1175AB1DA1D10600AFE136 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +186,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D03F59F1DADF05100FA3331 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				1D03F5A01DADF05100FA3331 /* Pulse.midi */,
+				1D03F5A11DADF05100FA3331 /* Sample1.mid */,
+				1D03F5A21DADF05100FA3331 /* Sample10.mid */,
+				1D03F5A31DADF05100FA3331 /* Sample11.mid */,
+				1D03F5A41DADF05100FA3331 /* Sample12.mid */,
+				1D03F5A51DADF05100FA3331 /* Sample13.mid */,
+				1D03F5A61DADF05100FA3331 /* Sample14.mid */,
+				1D03F5A71DADF05100FA3331 /* Sample15.mid */,
+				1D03F5A81DADF05100FA3331 /* Sample16.mid */,
+				1D03F5A91DADF05100FA3331 /* Sample17.mid */,
+				1D03F5AA1DADF05100FA3331 /* Sample18.mid */,
+				1D03F5AB1DADF05100FA3331 /* Sample19.mid */,
+				1D03F5AC1DADF05100FA3331 /* Sample2.mid */,
+				1D03F5AD1DADF05100FA3331 /* Sample20.mid */,
+				1D03F5AE1DADF05100FA3331 /* Sample21.mid */,
+				1D03F5AF1DADF05100FA3331 /* Sample22.mid */,
+				1D03F5B01DADF05100FA3331 /* Sample23.mid */,
+				1D03F5B11DADF05100FA3331 /* Sample24.mid */,
+				1D03F5B21DADF05100FA3331 /* Sample25.mid */,
+				1D03F5B31DADF05100FA3331 /* Sample26.mid */,
+				1D03F5B41DADF05100FA3331 /* Sample27.mid */,
+				1D03F5B51DADF05100FA3331 /* Sample28.mid */,
+				1D03F5B61DADF05100FA3331 /* Sample29.mid */,
+				1D03F5B71DADF05100FA3331 /* Sample3.mid */,
+				1D03F5B81DADF05100FA3331 /* Sample30.mid */,
+				1D03F5B91DADF05100FA3331 /* Sample31.mid */,
+				1D03F5BA1DADF05100FA3331 /* Sample32.mid */,
+				1D03F5BB1DADF05100FA3331 /* Sample33.mid */,
+				1D03F5BC1DADF05100FA3331 /* Sample34.mid */,
+				1D03F5BD1DADF05100FA3331 /* Sample35.mid */,
+				1D03F5BE1DADF05100FA3331 /* Sample36.mid */,
+				1D03F5BF1DADF05100FA3331 /* Sample37.mid */,
+				1D03F5C01DADF05100FA3331 /* Sample38.mid */,
+				1D03F5C11DADF05100FA3331 /* Sample39.mid */,
+				1D03F5C21DADF05100FA3331 /* Sample4.mid */,
+				1D03F5C31DADF05100FA3331 /* Sample40.mid */,
+				1D03F5C41DADF05100FA3331 /* Sample41.mid */,
+				1D03F5C51DADF05100FA3331 /* Sample42.mid */,
+				1D03F5C61DADF05100FA3331 /* Sample43.mid */,
+				1D03F5C71DADF05100FA3331 /* Sample44.mid */,
+				1D03F5C81DADF05100FA3331 /* Sample45.mid */,
+				1D03F5C91DADF05100FA3331 /* Sample46.mid */,
+				1D03F5CA1DADF05100FA3331 /* Sample47.mid */,
+				1D03F5CB1DADF05100FA3331 /* Sample48.mid */,
+				1D03F5CC1DADF05100FA3331 /* Sample49.mid */,
+				1D03F5CD1DADF05100FA3331 /* Sample5.mid */,
+				1D03F5CE1DADF05100FA3331 /* Sample50.mid */,
+				1D03F5CF1DADF05100FA3331 /* Sample51.mid */,
+				1D03F5D01DADF05100FA3331 /* Sample52.mid */,
+				1D03F5D11DADF05100FA3331 /* Sample53.mid */,
+				1D03F5D21DADF05100FA3331 /* Sample6.mid */,
+				1D03F5D31DADF05100FA3331 /* Sample7.mid */,
+				1D03F5D41DADF05100FA3331 /* Sample8.mid */,
+				1D03F5D51DADF05100FA3331 /* Sample9.mid */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
 		1D11759D1DA1D10600AFE136 = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +275,10 @@
 				1D1175AD1DA1D10600AFE136 /* Main.storyboard */,
 				1D1175B01DA1D10600AFE136 /* Assets.xcassets */,
 				1D1175B21DA1D10600AFE136 /* LaunchScreen.storyboard */,
+				1D03F59F1DADF05100FA3331 /* Samples */,
 				1D1175B51DA1D10600AFE136 /* Info.plist */,
 				1DB2CA1D1DA1DA3600E24301 /* NotePlayer.swift */,
+				1D03F59B1DADEB6D00FA3331 /* GeneralUser GS MuseScore v1.442.sf2 */,
 			);
 			path = inC;
 			sourceTree = "<group>";
@@ -236,8 +409,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D03F5F21DADF05100FA3331 /* Sample34.mid in Resources */,
+				1D03F5E61DADF05100FA3331 /* Sample23.mid in Resources */,
+				1D03F5FF1DADF05100FA3331 /* Sample46.mid in Resources */,
+				1D03F5FD1DADF05100FA3331 /* Sample44.mid in Resources */,
+				1D03F5F81DADF05100FA3331 /* Sample4.mid in Resources */,
+				1D03F5E11DADF05100FA3331 /* Sample19.mid in Resources */,
+				1D03F60B1DADF05100FA3331 /* Sample9.mid in Resources */,
+				1D03F5DD1DADF05100FA3331 /* Sample15.mid in Resources */,
+				1D03F5D91DADF05100FA3331 /* Sample11.mid in Resources */,
+				1D03F5FB1DADF05100FA3331 /* Sample42.mid in Resources */,
+				1D03F6041DADF05100FA3331 /* Sample50.mid in Resources */,
+				1D03F5EB1DADF05100FA3331 /* Sample28.mid in Resources */,
+				1D03F60A1DADF05100FA3331 /* Sample8.mid in Resources */,
 				1D1175B41DA1D10600AFE136 /* LaunchScreen.storyboard in Resources */,
+				1D03F5D61DADF05100FA3331 /* Pulse.midi in Resources */,
+				1D03F6001DADF05100FA3331 /* Sample47.mid in Resources */,
+				1D03F6021DADF05100FA3331 /* Sample49.mid in Resources */,
+				1D03F5E91DADF05100FA3331 /* Sample26.mid in Resources */,
+				1D03F5DF1DADF05100FA3331 /* Sample17.mid in Resources */,
+				1D03F5DA1DADF05100FA3331 /* Sample12.mid in Resources */,
+				1D03F5DE1DADF05100FA3331 /* Sample16.mid in Resources */,
+				1D03F5F51DADF05100FA3331 /* Sample37.mid in Resources */,
+				1D03F6011DADF05100FA3331 /* Sample48.mid in Resources */,
+				1D03F5DB1DADF05100FA3331 /* Sample13.mid in Resources */,
+				1D03F5F71DADF05100FA3331 /* Sample39.mid in Resources */,
+				1D03F5F01DADF05100FA3331 /* Sample32.mid in Resources */,
+				1D03F5FC1DADF05100FA3331 /* Sample43.mid in Resources */,
+				1D03F5D71DADF05100FA3331 /* Sample1.mid in Resources */,
+				1D03F5E01DADF05100FA3331 /* Sample18.mid in Resources */,
 				1D1175B11DA1D10600AFE136 /* Assets.xcassets in Resources */,
+				1D03F6091DADF05100FA3331 /* Sample7.mid in Resources */,
+				1D03F5F61DADF05100FA3331 /* Sample38.mid in Resources */,
+				1D03F5EE1DADF05100FA3331 /* Sample30.mid in Resources */,
+				1D03F5EA1DADF05100FA3331 /* Sample27.mid in Resources */,
+				1D03F5ED1DADF05100FA3331 /* Sample3.mid in Resources */,
+				1D03F5E31DADF05100FA3331 /* Sample20.mid in Resources */,
+				1D03F5DC1DADF05100FA3331 /* Sample14.mid in Resources */,
+				1D03F6081DADF05100FA3331 /* Sample6.mid in Resources */,
+				1D03F5E81DADF05100FA3331 /* Sample25.mid in Resources */,
+				1D03F5FA1DADF05100FA3331 /* Sample41.mid in Resources */,
+				1D03F5E51DADF05100FA3331 /* Sample22.mid in Resources */,
+				1D03F5F41DADF05100FA3331 /* Sample36.mid in Resources */,
+				1D03F5E41DADF05100FA3331 /* Sample21.mid in Resources */,
+				1D03F5EC1DADF05100FA3331 /* Sample29.mid in Resources */,
+				1D03F6051DADF05100FA3331 /* Sample51.mid in Resources */,
+				1D03F5F31DADF05100FA3331 /* Sample35.mid in Resources */,
+				1D03F6031DADF05100FA3331 /* Sample5.mid in Resources */,
+				1D03F5EF1DADF05100FA3331 /* Sample31.mid in Resources */,
+				1D03F6061DADF05100FA3331 /* Sample52.mid in Resources */,
+				1D03F5D81DADF05100FA3331 /* Sample10.mid in Resources */,
+				1D03F5F91DADF05100FA3331 /* Sample40.mid in Resources */,
+				1D03F5FE1DADF05100FA3331 /* Sample45.mid in Resources */,
+				1D03F6071DADF05100FA3331 /* Sample53.mid in Resources */,
+				1D03F5E21DADF05100FA3331 /* Sample2.mid in Resources */,
+				1D03F5F11DADF05100FA3331 /* Sample33.mid in Resources */,
+				1D03F59C1DADEB6D00FA3331 /* GeneralUser GS MuseScore v1.442.sf2 in Resources */,
+				1D03F5E71DADF05100FA3331 /* Sample24.mid in Resources */,
 				1D1175AF1DA1D10600AFE136 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

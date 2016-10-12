@@ -16,7 +16,7 @@ class NotePlayer {
 class Sampler: NSObject {
     var engine: AVAudioEngine!
     var sampler: AVAudioUnitSampler!
-    var sequencer: AVAudioSequencer!
+    var sequences: [AVAudioSequencer]!
     
     override init() {
         super.init()
@@ -34,7 +34,7 @@ class Sampler: NSObject {
         
         setSessionPlayback()
         
-        setupSequencer()
+        setupSequences()
         
     }
     
@@ -77,21 +77,31 @@ class Sampler: NSObject {
         }
     }
     
-    func setupSequencer() {
-        self.sequencer = AVAudioSequencer(audioEngine: self.engine)
+    
+    func setupSequences() {
+        var sequenceArr: [AVAudioSequencer] = []
         
-        let options = AVMusicSequenceLoadOptions.smfChannelsToTracks
+        for index in 0...53 {
+           let sequencer = AVAudioSequencer(audioEngine: self.engine)
         
-        if let fileURL = Bundle.main.url(forResource: "InCTest", withExtension: ".mid") {
-            do {
-                try sequencer.load(from: fileURL, options: options)
-                print("laoded file")
-            } catch {
-                print("couldn't setup sequencer \(error)")
-                return
+            let options = AVMusicSequenceLoadOptions.smfChannelsToTracks
+            
+            if let fileURL = Bundle.main.url(forResource: "Sample\(index + 1)", withExtension: ".mid") {
+                do {
+                    try sequencer.load(from: fileURL, options: options)
+                    print("laoded file")
+                } catch {
+                    print("couldn't setup sequencer \(error)")
+                    return
+                }
+                
+                sequenceArr.append(sequencer);
+            } else {
+                print("coudn't get file Sample\(index)")
             }
         }
         
+        sequences = sequenceArr
     }
     
     func setSessionPlayback() {
@@ -104,22 +114,28 @@ class Sampler: NSObject {
     }
     
     func play() {
-        if sequencer.isPlaying {
-            stop()
-        }
-        
-        sequencer.currentPositionInBeats = TimeInterval(0)
-        
-        do {
-            try sequencer.start()
-        } catch {
-            print("cannot start \(error)")
+        print("pressed play \(sequences.count)")
+        for sequencer in sequences {
+            print("playing sequence")
+            if sequencer.isPlaying {
+                stop()
+            }
+            
+            sequencer.currentPositionInBeats = TimeInterval(0)
+            
+            do {
+                try sequencer.start()
+            } catch {
+                print("cannot start \(error)")
+            }
         }
         //sampler.startNote(60, withVelocity: 64, onChannel: 0)
     }
     
     func stop() {
-        sequencer.stop()
+        for sequencer in sequences {
+            sequencer.stop()
+        }
 //        sampler.stopNote(60, onChannel: 0)
     }
 }
